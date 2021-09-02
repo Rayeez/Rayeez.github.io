@@ -15,10 +15,10 @@ var ctxR1 = document.getElementById("radarChart1").getContext('2d');
 var myRadarChart1 = new Chart(ctxR1, {
     type: 'radar',
     data: {
-        labels: ["Python", "Angular", "Ionic", "JavaScript", "Jquery", "SQL", "MongoDB", "Tableau", "HTML", "CSS"],
+        labels: ["Python","Java", "Angular", "Ionic", "JavaScript", "Jquery", "SQL", "MongoDB", "Tableau", "HTML", "CSS"],
         datasets: [{
             // label: "My First dataset",
-            data: [70, 72, 68, 82, 85, 65, 70,60,72,75],
+            data: [72,70, 72, 68, 82, 85, 65, 70,60,72,75],
             backgroundColor: [
                 // 'rgba(105, 0, 132, .2)',
                 'rgb(255, 0, 0,.2)'
@@ -47,10 +47,10 @@ var ctxR2 = document.getElementById("radarChart2").getContext('2d');
 var myRadarChart2 = new Chart(ctxR2, {
     type: 'radar',
     data: {
-        labels: ["Data Analysis", "Data Visualization", "Programming", "Debugging", "Modeling", "Machine Learning"],
+        labels: ["Data Analysis", "Data Visualization", "Programming", "Debugging","Data warehousing", "Modeling", "Machine Learning"],
         datasets: [{
             // label: "My First dataset",
-            data: [70, 54, 68, 63, 68, 70],
+            data: [70, 54, 68, 63,60, 68, 70],
             backgroundColor: [
                 // 'rgba(105, 0, 132, .2)',
                 'rgb(255, 83, 73,.2 )'
@@ -79,7 +79,7 @@ var ctxR3 = document.getElementById("radarChart3").getContext('2d');
 var myRadarChart3 = new Chart(ctxR3, {
     type: 'radar',
     data: {
-        labels: ["Adobe XD", "Adobe Ps", "Adobe Illustrator", "MS PowerPoint", "MS Word"],
+        labels: ["Adobe XD", "Adobe Ps", "Adobe Illustrator", "MS PowerPoint", "MS Excel"],
         datasets: [{
             // label: "My First dataset",
             data: [80, 62, 64, 80, 75],
